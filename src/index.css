@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=General+Sans:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+  max-width: 100%;
+  padding: 0rem;
+}
+html, body {
+  font-family: 'General Sans', sans-serif;
+  height: 100%;
+  margin: 0;
+}
