@@ -52,19 +52,27 @@ function MainSection() {
               <div className='text-sm text-[#6E6D6D]'>
                 <h1>Skills Required</h1>
                 <ul className='mt-2'>
-                  <li className='flex space-x-1'>
-                    <img src={figma1} alt="" className='h-[17px] w-[17px]' />
-                    <span>Figma</span>
+                  <li className='flex space-x-1 items-center'>
+                    <div className='flex items-center border border-black rounded px-2 py-1'>
+                      <img src={figma1} alt="" className='h-[17px] w-[17px] mr-1' />
+                      <span>Figma</span>
+                    </div>
                   </li>
-                  <li className='flex space-x-1'>
-                    <img src={illustrator} alt="" className='h-[17px] w-[17px]' />
-                    <span>Adobe Illustrator</span>
+                  <li className='flex space-x-1 items-center mt-2'>
+                    <div className='flex items-center border border-black rounded px-2 py-1'>
+                      <img src={illustrator} alt="" className='h-[17px] w-[17px] mr-1' />
+                      <span>Adobe Illustrator</span>
+                    </div>
                   </li>
-                  <li className='flex space-x-1'>
-                    <img src={xd} alt="" className='h-[17px] w-[17px]' />
-                    <span>Adobe XD</span>
+                  <li className='flex space-x-1 items-center mt-2'>
+                    <div className='flex items-center border border-black rounded px-2 py-1'>
+                      <img src={xd} alt="" className='h-[17px] w-[17px] mr-1' />
+                      <span>Adobe XD</span>
+                    </div>
                   </li>
-                </ul>
+              </ul>
+
+
               </div>
               <div>
                 <h1 className='text-[#6E6D6D] text-sm'>Preferred Language</h1>
