@@ -16,7 +16,6 @@ function NavBar() {
             </div>
           </div>
 
-          {/* Mobile menu button */}
           <div className="flex items-center sm:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -26,7 +25,6 @@ function NavBar() {
             </button>
           </div>
 
-          {/* Desktop menu */}
           <div className="hidden sm:flex-grow sm:flex sm:justify-center">
             <div className="flex justify-center space-x-4 bg-gray-100 px-4 py-2 rounded-full border border-gray-300">
               <div className="bg-[#DC4A2D] border-2 border-[#FCB4A5] px-4 py-2 rounded-full text-white flex items-center">
@@ -63,8 +61,6 @@ function NavBar() {
           </div>
         </div>
       </div>
-
-      {/* Mobile menu, show/hide based on menu state */}
       <div className={`sm:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1">
           <a href="#" className="bg-[#DC4A2D] text-white block px-3 py-2 rounded-md text-base font-medium">Jobs</a>

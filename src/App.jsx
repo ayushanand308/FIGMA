@@ -1,8 +1,8 @@
 import React from 'react';
-import NavBar from './NavBar';
+import NavBar from './assets/Components/NavBar';
 import './App.css';
-import SubNavBar from './SubNavBar';
-import MainSection from './MainSection';
+import SubNavBar from './assets/Components/SubNavBar';
+import MainSection from './assets/Components/MainSection';
 
 function App() {
   return (

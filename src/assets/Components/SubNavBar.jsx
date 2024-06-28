@@ -9,7 +9,6 @@ function SubNavBar() {
 
   return (
     <div className='border-b border-gray-200'>
-      {/* Mobile dropdown */}
       <div className='sm:hidden px-4 py-2'>
         <button
           onClick={() => setIsOpen(!isOpen)}
@@ -38,7 +37,6 @@ function SubNavBar() {
         )}
       </div>
 
-      {/* Desktop menu */}
       <div className='hidden sm:flex justify-start mx-auto mt-2 pt-0.5 pb-2'>
         <nav className='mx-4 lg:mx-16 flex gap-4 lg:gap-16 pb-2'>
           {menuItems.map((item) => (
