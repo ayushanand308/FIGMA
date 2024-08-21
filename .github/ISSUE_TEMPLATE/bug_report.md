@@ -8,34 +8,30 @@ assignees: ''
 ---
 
 ---
-name: Bug Report
+name: Issue tracker
 about: Create a report to help us improve
-title: '[BUG] - Concise title describing the issue'
-labels: bug
+title: '[ISSUE]' - Concise title describing the issue'
+labels: ''
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
-
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Description**
+What happened? Describe the unexpected behavior.
 
 **Expected behavior**
-A clear and concise description of what you expected to happen.
+What did you expect to happen?
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Any other feedback?**
+
+**Steps to Reproduce**
+1. Step 1: [Detail the first step]
+2. Step 2: [Detail the second step]
 
 **Environment Details**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+* OS: e.g., Windows 10, macOS 11.2, etc.
+* App Version: e.g., v1.0.0
 
 **Additional context**
 Add any other context about the problem here.
+```
